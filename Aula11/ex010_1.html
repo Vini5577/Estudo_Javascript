@@ -17,7 +17,7 @@
         function teste(){
             var pais = window.document.querySelector('input#txtest')
             var res = window.document.querySelector('div#res')
-            if (pais === 'Brasil'){
+            if (pais.value === 'Brasil'){
                 res.innerHTML = `Você é brasileiro`
             } else {
                 res.innerHTML = `Você é estrangeiro`
